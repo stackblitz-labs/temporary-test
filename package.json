@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "files": [
-    "./*"
-  ],
   "bin": {
     "playground": "index.js"
   },
