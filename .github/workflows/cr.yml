@@ -12,7 +12,7 @@ jobs:
     - name: Clone private repository
       uses: actions/checkout@v4
       with:
-        repository: <your_organization>/<private_repo_name>
+        repository: stackblitz-labs/stackblitz-ci
         token: ${{ secrets.GITHUB_TOKEN }}
         path: ./sb-ci
 
