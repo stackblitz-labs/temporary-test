@@ -29,6 +29,8 @@ jobs:
     - name: Build
       run: pnpm run build
       working-directory: ./sb-ci
+      env:
+        API_URL: https://stackblitz-cr.pages.dev/
 
     - run: pnpm link ./sb-ci/packages/cli
 
