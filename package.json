@@ -14,5 +14,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "stackblitz-cr": "^0.0.1"
   }
 }

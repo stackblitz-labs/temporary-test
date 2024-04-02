@@ -9,13 +9,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Clone private repository
-      uses: actions/checkout@v4
-      with:
-        repository: stackblitz-labs/stackblitz-ci
-        token: ${{ secrets.PAT }}
-        path: ./sb-ci
-
     - run: corepack enable
     - uses: actions/setup-node@v4
       with:
@@ -24,15 +17,6 @@ jobs:
 
     - name: Install dependencies
       run: pnpm install
-      working-directory: ./sb-ci
-    
-    - name: Build
-      run: pnpm run build
-      working-directory: ./sb-ci
-      env:
-        API_URL: https://stackblitz-cr.pages.dev/
-
-    - run: pnpm link ./sb-ci/packages/cli
 
     - run: pnpm sb publish
       env:
