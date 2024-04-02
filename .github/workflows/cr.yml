@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v4
       with:
         repository: stackblitz-labs/stackblitz-ci
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
         path: ./sb-ci
 
     - run: corepack enable
