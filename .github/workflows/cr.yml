@@ -1,5 +1,5 @@
 name: Clone and Build Workflow
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
