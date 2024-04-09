@@ -6,8 +6,8 @@ settings:
 
 devDependencies:
   stackblitz-cr:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: latest
+    version: 0.0.2
 
 packages:
 
@@ -173,8 +173,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /stackblitz-cr@0.0.1:
-    resolution: {integrity: sha512-ggst2z5eFK6bI/gI1ydngCXKDSZq1Iq7Kg6dfPnesG8tPz8aFaFtQiqF3uLVXrNsL+LcWoVohZQ2NTXnw1uNsA==}
+  /stackblitz-cr@0.0.2:
+    resolution: {integrity: sha512-YWh3LCrHyegyUCUKcu9pF/P984If/cQe1gUU2dn8T0HlHZxNTGGXfFh14eNmva+tCozOe8lYtafbzSmbC6aJCQ==}
     hasBin: true
     dependencies:
       '@jsdevtools/ez-spawn': 3.0.4
