@@ -8,12 +8,12 @@
     "playground": "index.js"
   },
   "scripts": {
-    "publish": "sb publish"
+    "publish": "pkg-pr-new publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "stackblitz-cr": "latest"
+    "pkg-pr-new": "latest"
   }
 }
