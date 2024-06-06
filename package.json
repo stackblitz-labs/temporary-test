@@ -8,12 +8,14 @@
     "playground": "index.js"
   },
   "scripts": {
-    "publish": "sb publish"
+    "publish": "pkg-pr-new publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "stackblitz-cr": "latest"
-  }
+    "pkg-pr-new": "latest"
+  },
+  "packageManager": "pnpm@9.1.3+sha256.7f63001edc077f1cff96cacba901f350796287a2800dfa83fe898f94183e4f5f"
+
 }
